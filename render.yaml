@@ -1,5 +1,6 @@
 services:
   - type: web
+    plan: starter
     runtime: docker
     name: n8n
     image:
