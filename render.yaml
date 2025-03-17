@@ -51,4 +51,4 @@ databases:
     plan: basic-256mb
     # You can later increase your database's disk size as
     # needed to any multiple of 5 GB.
-    diskSizeGB: 1
+    diskSizeGB: 5
