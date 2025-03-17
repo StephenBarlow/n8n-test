@@ -1,0 +1,10 @@
+services:
+- type: web
+  runtime: docker
+  name: n8n
+  image:
+    url: docker.io/n8nio/n8n@sha256:5288543ac4dc1ea7149a93e38a24989c913c9007dd2459f6c730ac247c4d958f
+databases:
+  - name: n8n-db
+    plan: basic-1gb
+    diskSizeGB: 5
